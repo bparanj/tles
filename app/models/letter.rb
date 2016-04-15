@@ -26,7 +26,7 @@ class Letter
   def to_model
     # You will get to_model error, if you don't have this dummy method
   end
-  
+  # You need this otherwise you get an error
   def persisted?
     false
   end
