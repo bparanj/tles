@@ -1,0 +1,5 @@
+<h1> Products for Letter <%= @letter.char %> </h1>
+
+<p><%= link_to "Select a Letter", alphabets_path %></p>
+
+<%= render :partial => @letter.products %>

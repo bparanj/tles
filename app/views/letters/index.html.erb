@@ -1,0 +1,5 @@
+
+
+<% for letter in @letters %>
+  <%= link_to letter.char, letters_path(id: letter.char) %>
+<% end %>
